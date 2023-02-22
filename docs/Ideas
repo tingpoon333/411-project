@@ -1,1 +1,19 @@
 
+Game Ranker: 
+Games are a fun way to interact with friends online, but when you don’t know what games to play, 
+or games have gotten too boring, that can be a little hard. Luckily with our Game Ranker, given a set of games 
+that a user ranks by interest and as well as a ranked set of games they’ve played, this program uses a database 
+of games to suggest games the user has not played yet that they might enjoy in the form of a ranking system. 
+The rankings of each game  will be based on several categories: game genre, company, price, game rating, etc. 
+Using these categories, our program will compile a list of games and rank them based on both the categories of 
+games the user has played as well as the categories of games the user has demonstrated interest in. Accounts 
+can be made so that these rankings can be shared with friends.
+
+T Express Detector: 
+Ever wait for the T only to have it just zoom past you because it's an express? Worry no more! 
+This software would check to see if the T arriving is an express or not, updating real time based on the data it 
+pulls from the MBTA. So even if the T changes to an express on the way (which does happen!) this software would 
+tell you immediately so that you don’t have to waste your precious time to wait for a T that has no plans on 
+letting you on. This software would take user input on their location as well as their destination to suggest if 
+the user should take the train that is arriving in order to allow them to get to their destination using the T as 
+quickly and as efficiently as possible. 
