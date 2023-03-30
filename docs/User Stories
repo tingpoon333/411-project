@@ -1,0 +1,13 @@
+User has been playing the same games for a couple weeks now and is getting bored. After having completed all the levels they decide that they want to play something new. However, all the new games they try aren’t exactly their style, but the user isn't sure where to find games they might like. They decide to try our game ranker to see if it might help.
+
+The user should login using their email address and a password of their choice in order to access their account (make a new account if new user)
+
+Once logged in, the user will have two options of whether to get games suggested based on games they've played or games they’re interested in. 
+
+If they want suggestions based on games they’ve played, they should input games they’ve played and liked which the ranker will use to suggest games that are similar whether it be genre, company, price, etc. (which the user will specify).
+
+If the user wants suggestions based on games they are interested in, they should input them and specify the requirements and the game will suggest games that are similar to them. 
+
+Once the lists are compiled, the ranker will rank them based on best fit of the requirements the user has specified and as well as their similarity to the games of interest. 
+
+The user will be able to add friends to share their list with their friends so that they can suggest these games to their friends as well.
