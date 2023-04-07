@@ -1,5 +1,5 @@
 """
-Backend Code Prototype that Calls API and Displays it using HTML and Flask
+Backend Code Prototype that Calls API and Displays it using Flask Python
 """
 #code setup for connecting with database (MySql)
 """
