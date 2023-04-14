@@ -1,4 +1,5 @@
 <!-- /templates/search.html -->
+<!--
 <!doctype html>
 <head>
     <title>Game Ranker</title>
@@ -18,3 +19,70 @@
 
             </form>
     </body>
+-->
+
+<!doctype html>
+<html>
+<head>
+	<title>Game Ranker</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+    <body bgcolor = 22CAAE> 
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Games Based on My Preferences</a></li>
+                    <li><a href="#">Games Based on What I've Played</a></li>
+                    <li><a href="#">Friends</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section id="login">
+                <h2>Login</h2>
+                <form>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required>
+                    <input type="submit" value="Login">
+                </form>
+                <p>Don't have an account? <a href="#">Create one here</a>.</p>
+            </section>
+            <section id="game-suggestions">
+                <h2>Game Suggestions</h2>
+                <form>
+                    <label for="preferences">Games Based on My Preferences:</label>
+                    <input type="text" id="preferences" name="preferences">
+                    <label for="requirements">Games Based on What I've Played:</label>
+                    <input type="text" id="requirements" name="requirements">
+                    <input type="submit" value="Get Suggestions">
+                </form>
+                <h3>Results</h3>
+                <ul>
+                    <li><a href="#">Game 1</a></li>
+                    <li><a href="#">Game 2</a></li>
+                    <li><a href="#">Game 3</a></li>
+                </ul>
+            </section>
+            <section id="friends">
+                <h2>Friends</h2>
+                <form>
+                    <label for="friend-email">Friend's Email:</label>
+                    <input type="email" id="friend-email" name="friend-email">
+                    <input type="submit" value="Add Friend">
+                </form>
+                <h3>My Friends</h3>
+                <ul>
+                    <li><a href="#">Friend 1</a></li>
+                    <li><a href="#">Friend 2</a></li>
+                    <li><a href="#">Friend 3</a></li>
+                </ul>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2023 Game Ranker. All rights reserved.</p>
+        </footer>
+    </body>
+</html>
