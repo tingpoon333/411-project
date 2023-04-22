@@ -4,15 +4,8 @@ they might like. They decide to try our game ranker to see if it might help.
 
 The user should login using their email address and a password of their choice in order to access their account (make a new account if new user)
 
-Once logged in, the user will have two options of whether to get games suggested based on games they've played or games they’re interested in. 
+Once logged in, the user will input a game they've enjoyed or want to play. 
 
-If they want suggestions based on games they’ve played, they should input games they’ve played and liked which the ranker will use to suggest 
-games that are similar whether it be genre, company, price, etc. (which the user will specify).
+Based on the game the user has inputed, the app will find data on the game and find games that are similar and complie them into a list.
 
-If the user wants suggestions based on games they are interested in, they should input them and specify the requirements and the game will 
-suggest games that are similar to them. 
-
-Once the lists are compiled, the ranker will rank them based on best fit of the requirements the user has specified and as well as their 
-similarity to the games of interest. 
-
-The user will be able to add friends to share their list with their friends so that they can suggest these games to their friends as well.
+Once the lists are compiled, the ranker will rank them.
