@@ -49,7 +49,7 @@ def search_game_by_name():
         response = requests.request("GET", url, headers=headers)
         y = json.loads(response.text)
         descrip = y["description"]
-        return render_template('display.html', description = descrip)
+        return render_template('display2.html', description = descrip)
     else:
         return render_template('search.html')
         
