@@ -11,12 +11,12 @@ CREATE TABLE Users (
     birth_date varchar(11) NOT NULL,
     first_name varchar(40) NOT NULL,
     last_name varchar(40) NOT NULL,
-	PRIMARY KEY (user_id)
+    PRIMARY KEY (user_id)
 ); 
 CREATE TABLE User_Games (
-	user_id int4 NOT NULL,
+    user_id int4 NOT NULL,
     game_id int4 NOT NULL AUTO_INCREMENT,
     game_name varchar(255) NOT NULL UNIQUE,
     date_added DATETIME DEFAULT CURRENT_TIMESTAMP,
-	PRIMARY KEY (game_id)
+    PRIMARY KEY (game_id)
 );
