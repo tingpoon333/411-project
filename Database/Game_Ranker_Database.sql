@@ -8,7 +8,7 @@ CREATE TABLE Users (
     user_id int4  NOT NULL AUTO_INCREMENT,
     email varchar(255) NOT NULL UNIQUE,
     password varchar(255) NOT NULL,
-    birth_date varchar(11) NOT NULL,
+    birth_date varchar(11),
     first_name varchar(40) NOT NULL,
     last_name varchar(40) NOT NULL,
     PRIMARY KEY (user_id)
