@@ -195,7 +195,17 @@ header {
   text-transform: uppercase;
 }
 
+#login-or-signup {
+  max-width: 500px;
+  margin: 0 auto;
+  }
+
 #login {
+  max-width: 500px;
+  margin: 0 auto;
+  }
+
+#signup {
   max-width: 500px;
   margin: 0 auto;
   }
@@ -208,6 +218,8 @@ position: center;
 margin: 0 auto;
 }
 
+input[type="first_name"],
+input[type="last_name"],
 input[type="email"],
 input[type="password"],
 input[type="submit"] {
