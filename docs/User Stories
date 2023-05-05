@@ -1,11 +1,13 @@
-User has been playing the same games for a couple weeks now and is getting bored. After having completed all the levels they decide that
-they want to play something new. However, all the new games they try aren’t exactly their style, but the user isn't sure where to find games 
-they might like. They decide to try our game ranker to see if it might help.
+Picture this: You've been playing the same game for over a couple of weeks now and you're getting bored. The levels you've repeated completed just 
+are not as fufilling as they used to be. No matter what games you try to play, none of them are really your style, and you realize that you don't
+have a good wayto find the kind of games that you enjoy playing. Luckily for you, there Game Ranker!
 
-The user should login using their email address and a password of their choice in order to access their account (make a new account if new user)
-
-Once logged in, the user will input a game they've enjoyed or want to play. 
-
-Based on the game the user has inputed, the app will find data on the game and find games that are similar and complie them into a list.
-
-Once the lists are compiled, the ranker will rank them.
+Our user will be able to login using their email address and a password of their choice in order to access/create an account. 
+Once logged in, the user will have the option to input a game that they have enjoyed playing in the past. 
+Our Game Ranker program will then use the name of the game to curate a small list of 3 options that the user can consider playing that alligns with 
+their interest. This list is organized by comparing the user-inputted game's genre with other games in the RawG database and outputting games that have 
+similar, if not identitical genre categories as the inputted game. 
+Meanwhile you wait, we offer a selection of soft gaming music by C418 through the utilization of Spotify in order to provide a warm and comfortable
+ambience to our program.
+The list hasthe potential of being different everytime, as our system offers games both old and new, some that are very popular, and others that may 
+have never been heard of. Thus, our Game Ranker will alway provide fresh and interesting game options for the user to consider enjoying themselves!
