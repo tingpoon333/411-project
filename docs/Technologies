@@ -11,3 +11,8 @@ most proficient in MySQL in comparison to the to rest of the group, he spent mos
 connected both the frontend and backend programming via her contributions in HTML and CSS programming. Diego Murcia operated on the backend programming,
 creating lines of code that satisfy certain required operations, and programmed in Flask with the assistance of Dohuym Kim to connect the programming with our 
 database. 
+
+When it came to searching for an API oriented around game content, we decided on using RawG video game database. The RawG game database contains over 
+900,000 games, all of which contain information regarding genre, release date, critic score, etc. Since our game search would be more oriented around genre,
+our team decided that RawG would be an ideal database to use. For our second API, we decided that we wanted to use the spotify API. Our intentions for 
+using the Spotify API was to create a relaxing ambience to the site, resembling something of a "gamer-like" mood.
