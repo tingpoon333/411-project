@@ -88,7 +88,7 @@ def start_loop():
 if __name__ == '__main__':
     app.run()
 """
-
+"""
 from flask import Flask
 import spotipy
 from spotipy.oauth2 import SpotifyOAuth
@@ -97,7 +97,7 @@ import time
 app = Flask(__name__)
 
 # Set up Spotify API credentials
-redirect_uri = 'http://127.0.0.1:8888'
+redirect_uri = 'http://127.0.0.1:7000/callback'
 client_id = 'd8c356355725447eba3fceab71d032a0'
 client_secret = '9d16c781b9b14ae0a81e83b334654ad9'
 
@@ -106,7 +106,7 @@ scope = 'user-modify-playback-state user-read-playback-state'
 sp = spotipy.Spotify(auth_manager=SpotifyOAuth(client_id=client_id, client_secret=client_secret, redirect_uri=redirect_uri, scope=scope))
 
 # Search for the song you want to play on a loop
-results = sp.search(q='Objects in the Mirror Mac Miller', type='track', limit=1)
+results = sp.search(q='Gaming Lofi', type='track', limit=1)
 uri = results['tracks']['items'][0]['uri']
 
 # Start playing the song on a loop
@@ -127,4 +127,40 @@ def play_on_loop():
             time.sleep(5)
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(port= 7000, debug=True)
+"""
+
+import spotipy
+from spotipy.oauth2 import SpotifyOAuth
+
+# Set up Spotify API credentials
+redirect_uri = 'http://localhost:7000/callback'
+client_id = 'd8c356355725447eba3fceab71d032a0'
+client_secret = '9d16c781b9b14ae0a81e83b334654ad9'
+
+# Set up authentication
+scope = 'user-modify-playback-state'
+sp = spotipy.Spotify(auth_manager=SpotifyOAuth(client_id=client_id, client_secret=client_secret, redirect_uri=redirect_uri, scope=scope))
+
+# Get access token
+access_token = sp.auth_manager.get_access_token(as_dict=False)
+print(access_token)
+
+
+import spotipy
+from spotipy.oauth2 import SpotifyOAuth
+
+# Set up Spotify API credentials
+redirect_uri = 'http://localhost:7000'
+client_id = 'YOUR_CLIENT_ID'
+client_secret = 'YOUR_CLIENT_SECRET'
+
+# Set up authentication
+scope = 'user-modify-playback-state user-read-playback-state'
+sp = spotipy.Spotify(auth_manager=SpotifyOAuth(client_id=client_id, client_secret=client_secret, redirect_uri=redirect_uri, scope=scope))
+
+# Search for the song you want to play on a loop
+results = sp.search(q='Gaming Lofi', type='track', limit=1)
+uri = results['tracks']['items'][0]['uri']
+
+print(uri) # prints the URI of the first search result

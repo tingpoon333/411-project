@@ -1,0 +1,36 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Spotify Web Playback SDK Example</title>
+    <script src="https://sdk.scdn.co/spotify-player.js"></script>
+</head>
+<body>
+
+<script>
+// Set up Spotify API credentials
+const client_id = 'd8c356355725447eba3fceab71d032a0';
+const access_token = 'BQBxGKrxHzjtO5TTCZLsltmpBZ-oVrZw6u62TESHrfb7-rJzj0UsWslYTyCGohmHbqg_bwPgWTkE_ivg1Gvy0uWgwa1Dc5Wt8UVSMtmPLye3Vdb8WopXeXzG_4Sb7dlr8YLkAlgJpZfeC0c_JN5vvTFNkmKNK3BhYlYLn-EmxpP9eR9tIO7hBy_B80p88m592A';
+
+// Authenticate the user with Spotify
+window.onSpotifyWebPlaybackSDKReady = () => {
+  const player = new Spotify.Player({
+    name: 'My Web Playback SDK Example',
+    getOAuthToken: cb => { cb(access_token); }
+  });
+
+  // Play a specific song on loop
+  player.addListener('ready', ({ device_id }) => {
+    console.log('Ready with Device ID', device_id);
+    player.play({
+      uris: ['spotify:track:5MtyjfXwXmegCIYGScyuFU'],
+      repeat_mode: 'context'
+    });
+  });
+  player.connect();
+};
+</script>
+
+</body>
+</html>
