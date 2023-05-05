@@ -9,4 +9,5 @@ framework, as proofread any programming involving Flask methods and packages. In
 some knowledge and proficiency in MySQL. As a result, we leveraged this familiarity by utilizing MySQL for our project development. Because Dohuyn Kim is
 most proficient in MySQL in comparison to the to rest of the group, he spent most of his efforts a working database via MySQL programming. Chui Poon
 connected both the frontend and backend programming via her contributions in HTML and CSS programming. Diego Murcia operated on the backend programming,
-creating lines of code that satisfy certain required operations, and programmed in Flask with the assistance of Dohuym Kim to connect the programming with our database. 
+creating lines of code that satisfy certain required operations, and programmed in Flask with the assistance of Dohuym Kim to connect the programming with our 
+database. 
